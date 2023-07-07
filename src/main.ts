@@ -6,7 +6,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   app.use(cookieParser());
-  // merge
+
   await app.listen(3000);
 }
 bootstrap();
