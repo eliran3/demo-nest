@@ -1,0 +1,1 @@
+export const jwtTokenSecret = process.env.JWT_TOKEN_SECRET
